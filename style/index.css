@@ -1,3 +1,75 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Chelsea+Market&family=Roboto+Mono&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Abel', sans-serif;
+}
+
+.content{
+    background-color: rgba(174, 174, 221, 0.281);
+    border: 2px solid rgba(214, 115, 115, 0.281);
+    width:80%;
+    margin:0 auto;
+    height: 100%;
+}
+
+.navBar h1{
+    margin:0;
+    padding-right:1%;
+}
+
+.navBar{
+    padding-left: 2%;
+    background-color: rgba(115, 115, 214, 0.281);
+    display:flex;
+    border-bottom: 2px solid rgba(115, 115, 214, 0.281);
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.082);
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+nav a{
+    margin:10px;
+    text-decoration: none;
+    color:black
+}
+
+a:hover{
+    color:white;
+}
+
+.main{
+    margin:2%;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+img{
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.082);
+}
+
+ul{
+    list-style-type:none;
+    padding:0;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.portfolioImage{
+    width: 20%;
+   margin: 3%; 
+}
+
+.navBarFooter{
+    background-color: rgba(174, 174, 221, 0.281);
 }

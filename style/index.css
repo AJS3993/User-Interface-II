@@ -3,6 +3,7 @@
 body{
     margin:0;
     font-family: 'Abel', sans-serif;
+    background-color: rgba(209, 222, 240, 0.589);
 }
 
 .content{
@@ -13,9 +14,15 @@ body{
     height: 100%;
 }
 
-.navBar h1{
+h1{
     margin:0;
     padding-right:1%;
+    white-space: nowrap;
+}
+
+a{
+    text-decoration: none;
+    color:black;
 }
 
 .navBar{
@@ -67,9 +74,21 @@ ul{
 
 .portfolioImage{
     width: 20%;
-   margin: 3%; 
+    margin: 3%; 
 }
 
 .navBarFooter{
     background-color: rgba(174, 174, 221, 0.281);
+    text-align: center;
+    padding:2%;
+}
+
+.contactMeButton{
+    margin-top:2%;
+    padding:2%;
+}
+
+.projectButton{
+    margin-top:2%;
+    padding:2%;
 }

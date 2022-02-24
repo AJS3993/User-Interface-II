@@ -9,7 +9,7 @@ body{
 .content{
     background-color: rgba(174, 174, 221, 0.281);
     border: 2px solid rgba(214, 115, 115, 0.281);
-    width:80%;
+    width:90%;
     margin:0 auto;
     height: 100%;
 }
@@ -91,4 +91,24 @@ ul{
 .projectButton{
     margin-top:2%;
     padding:2%;
+}
+
+@media(max-width: 800px) {
+    
+    *{
+        border: 1px solid green;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 500px) {
+
+    *{
+        border: 1px solid red;
+    }
+
 }
